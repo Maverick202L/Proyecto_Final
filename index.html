@@ -1,0 +1,103 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PÉTALO</title>
+    <link rel="shortcut icon" href="img/Icono Petal.jpeg">
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
+    <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
+    <div class="title-bar-title">Menu</div>
+  </div>
+  
+  <div class="top-bar" id="responsive-menu">
+    <div class="top-bar-left">
+      <ul class="dropdown menu" data-dropdown-menu>
+        <li class="menu-text"> <img src="img/Icono petal abajo defi.jpg"></li>
+        <li class="has-submenu">
+          <a href="#0">Principal</a>
+          <ul class="submenu menu vertical" data-submenu>
+            <li><a href="#0">Arreglos</a></li>
+            <li><a href="#0">Servicios</a></li>
+            <li><a href="#0">Precios</a></li>
+          </ul>
+        </li>
+        <li><a href="#0">Productos</a></li>
+        <li><a href="#0">Acerca de nosotros</a></li>
+      </ul>
+    </div>
+    <div class="top-bar-right">
+      <ul class="menu">
+        <li><input type="search" placeholder="¿Que deseas buscar?"></li>
+        <li><button type="button" class="button">Buscar</button></li>
+      </ul>
+    </div>
+  </div>
+
+  <body style="background-image: url('img/Fondo\ de\ la\ pagina.jpeg">
+  <div class="contenido">
+    <h1>Bienvenido a PETALO</h1>
+    <p>Official Website.</p>
+  </div>
+
+  <body>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>IdVenta</th>
+                    <th>IdCliente</th>
+                    <th>IdProducto</th>
+                    <th>cantidad</th>
+                    <th>fechapedido</th>
+                    <th>total</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+        
+        <tr>
+         <td><%= IdVenta %></td>
+          <td><%= IdCliente %></td>
+           <td><%= IdProducto %></td>
+             <td><%= cantidad %></td>
+               <td><%= fechapedido %></td>
+                 <td><%= total %></td>
+                    <td>
+                     
+     <button>Modificar</button>
+      <button>Ver</button>
+          </td>
+           </tr>
+                                                
+            </tbody>
+        </table>
+      </div>
+      <hr size="2" color="red">
+
+      <div class="container">
+         <div  class="box"> 
+          <a><img src="img/Icono arreglo.png" alt="Imagen 1"></a>
+          <p>Arreglos Florales</p>
+        </div>
+        <div class="box">
+          <a><img src="img/Servicio, decoracion.png" alt="Imagen 2"></a>
+          <p>Servicios de decoracion</p>
+        </div>
+        <div class="box">
+          <a><img src="img/Precios icon.png" alt="Imagen 3"> </a>
+          <p>Nuestros precios</p>
+        </div>
+      </div> 
+      
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
